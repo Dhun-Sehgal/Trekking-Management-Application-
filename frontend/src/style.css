@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f7f6;
+}
+
+.navbar-brand i {
+  color: #2e7d32;
+}
+
+.trek-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid #e2e6ea;
+}
+
+.trek-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.badge-difficulty-Easy { background-color: #2e7d32; }
+.badge-difficulty-Moderate { background-color: #f9a825; color: #212529; }
+.badge-difficulty-Hard { background-color: #c62828; }
+
+.status-Open { color: #2e7d32; font-weight: 600; }
+.status-Closed { color: #c62828; font-weight: 600; }
+.status-Pending { color: #6c757d; font-weight: 600; }
+.status-Approved { color: #1565c0; font-weight: 600; }
+.status-Completed { color: #6a1b9a; font-weight: 600; }
+
+.stat-card { border-radius: 0.75rem; }
+.min-vh-90 { min-height: 90vh; }
